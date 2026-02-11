@@ -1,79 +1,93 @@
-<img src="windy.png" width="100" height="100">
+`<img src="windy.png" width="100" height="100">`{=html}
 
 # PWS Stations
 
-Welcome to the Windy PWS Stations project!
-This repository provides guidelines for uploading weather data from specific stations to [Windy.com](https://windy.com).
+Welcome to the Windy PWS Stations project.\
+This repository provides guidelines for uploading weather data from
+specific stations to https://windy.com.
 
-These guides can be found on the [Guides](https://stations.windy.com/guides) page in HTML format.
+These guides are available on the Documentation page in HTML format:
+https://stations.windy.com/docs#list-of-supported-devices
 
-We also welcome contributions from the community to enhance the project.
+We also welcome contributions from the community to help improve this
+project.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-  - [Guide Structure](#guide-structure)
-- [Code of Conduct](#code-of-conduct)
-- [License](#license)
+-   [Getting Started](#getting-started)
+-   [Contributing](#contributing)
+    -   [Guide Structure](#guide-structure)
+-   [Code of Conduct](#code-of-conduct)
+-   [License](#license)
 
-## Getting started
+## Getting Started
 
-Guides are separated into folders named after station brands (e.g. `netatmo`).
-There are folders with specific models (e.g. `urban`).
+Guides are organized into folders named after station brands, for
+example `netatmo`.\
+Each brand folder contains subfolders for specific models, for example
+`urban`.
 
-You will find a `page.md` file with the information you're looking for.
+Inside each model folder, you will find a `page.md` file with the
+relevant information.
 
 ## Contributing
 
-We welcome contributions to the Weather Data Uploader project!
-Whether you're fixing a typo or adding a new model guide, your input is valuable.
+We welcome contributions to the PWS Stations project.\
+Whether you are fixing a typo or adding a new model guide, your input is
+valuable.
 
 ### How to Contribute
 
-1. **Fork the repository**: Click the **"Fork"** button at the top right of this page to create a copy of this repository on your GitHub account.
-2. **Create a branch**: Create a new branch for your work. Use a descriptive name for your branch (`nickname/add-netatmo-urban-docs`).
-3. **Make your changes**: Edit the documentation files.
-
-   See [Guide Structure](#guide-structure) for the best results.
-
-4. **Commit & push your changes**: Commit your changes with a descriptive commit message and your changes to your forked repository.
-5. **Submit a pull request**: Go to the original repository on GitHub and submit a pull request with a description of your changes.
+1.  **Fork the repository**: Click the **Fork** button at the top right
+    of this page to create a copy of this repository in your GitHub
+    account.
+2.  **Create a branch**: Create a new branch for your work. Use a
+    descriptive branch name, for example
+    `nickname/add-netatmo-urban-docs`.
+3.  **Make your changes**: Edit the documentation files.\
+    See [Guide Structure](#guide-structure) for guidance.
+4.  **Commit and push your changes**: Commit your changes with a
+    descriptive commit message and push them to your forked repository.
+5.  **Submit a pull request**: Go to the original repository on GitHub
+    and submit a pull request with a description of your changes.
 
 ### Guide Structure
 
-Write files in `Markdown` using the following template.
-Screenshots or other pictures should be put to the same directory as the `page.md`.
+Write files in `Markdown` using the following template.\
+Screenshots or other images should be placed in the same directory as
+the `page.md` file.
 
-Don't be too brief or too verbose. Follow your common sense.
+Do not be too brief or too verbose. Use your best judgment.
 
-```md
+``` md
 ## Prerequisites
 
-Here goes a list of items or actions a reader has to have or do in order to seamlessly follow your guide.
+Here goes a list of items or actions a reader needs to complete in order to follow your guide smoothly.
 
-- **Unordered list is prefered** - make a list item bolder. Describe with a normal font.
+- **Use an unordered list**. Make the list item bold. Describe it using normal text.
 
-## (optional) Initial setup
+## (optional) Initial Setup
 
-Some extended setup which could be required.
+Include any additional setup steps that may be required.
 
 ## Steps
 
-Write down a list of simple steps the reader will follow. Try to write it the way even not advanced users will be able to understand.
+Write a list of simple steps for the reader to follow. Try to explain them clearly so that even less experienced users can understand.
 
-Use screenshots with a highlighted area of interest.
+Use screenshots and highlight the relevant areas.
 
-1. **Ordered list is prefered** - make a list item bolder. Describe with a normal font.
-   - Use 2nd level lists if needed
+1. **Use an ordered list**. Make the list item bold. Describe it using normal text.
+   - Use second-level lists if needed
 
 (optional) Author: [Your Name](https://github.com/mrfullset)
 ```
 
 ## Code of Conduct
 
-Please read and adhere to our [Code of Conduct](/CODE_OF_CONDUCT.md) to ensure a positive experience for all contributors.
+Please read and adhere to our [Code of Conduct](/CODE_OF_CONDUCT.md) to
+ensure a positive experience for all contributors.
 
 ## License
 
-This project is licensed under the **Apache License, Version 2.0** - see the [LICENSE](/LICENSE) file for details.
+This project is licensed under the **Apache License, Version 2.0**. See
+the [LICENSE](/LICENSE) file for details.
