@@ -1,4 +1,4 @@
-`<img src="windy.png" width="100" height="100">`{=html}
+<img src="windy.png" width="100" height="100">
 
 # PWS Stations
 
