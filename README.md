@@ -14,20 +14,18 @@ project.
 
 ## Table of Contents
 
--   [Getting Started](#getting-started)
--   [Contributing](#contributing)
-    -   [Guide Structure](#guide-structure)
--   [Code of Conduct](#code-of-conduct)
--   [License](#license)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+  - [Guide Structure](#guide-structure)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
 
 ## Getting Started
 
 Guides are organized into folders named after station brands, for
-example `netatmo`.\
-Each brand folder contains subfolders for specific models, for example
-`urban`.
+example `Ambient Weather`, `Garni` or `Netatmo`.
 
-Inside each model folder, you will find a `page.md` file with the
+Inside each brand folder, you will find a `README.md` file with the
 relevant information.
 
 ## Contributing
@@ -54,12 +52,13 @@ valuable.
 ### Guide Structure
 
 Write files in `Markdown` using the following template.\
-Screenshots or other images should be placed in the same directory as
-the `page.md` file.
+Each guide should be placed in a folder named after the station brand,
+for example `Ambient Weather/README.md`. Screenshots or other images
+should be placed in the same brand folder as the `README.md` file.
 
 Do not be too brief or too verbose. Use your best judgment.
 
-``` md
+```md
 ## Prerequisites
 
 Here goes a list of items or actions a reader needs to complete in order to follow your guide smoothly.
