@@ -15,6 +15,7 @@
   If there is no `decoded_payload`, set up a **Payload formatter** for the device first (your sensor manufacturer provides one).
 
 - **Create a station on Windy** - add a station in [My Stations](https://stations.windy.com/stations) with its location and the height of the sensors.
+- **Find your Station id and Station password** - you need both in the steps below. They are on the station detail page in Windy Stations: **My Stations -> station -> Connection**.
 
 ## Steps
 
@@ -35,8 +36,6 @@
    ![Uplink message enabled](ttn-webhook-uplink.png)
 
 1. Click **Add webhook** at the bottom of the form.
-
-You can find your _Station id_ and _Station password_ on the station detail page in Windy Stations: **My Stations -> station -> Connection**.
 
 From the next sensor message on, the data appear on your station page in My Stations, and shortly after that on <a href="https://windy.com" target="_blank" rel="noopener noreferrer">windy.com</a>.
 
